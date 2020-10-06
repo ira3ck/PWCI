@@ -1,0 +1,28 @@
+img.logo{
+    width: 100%;
+    padding-top: 1.5% ;
+}
+h1.título{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    font-size: xx-large;
+}
+
+footer{
+    background-color: rgb(134, 134, 134);
+}
+
+.Landing{
+    position: relative;
+}
+
+.centeredBTN{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
