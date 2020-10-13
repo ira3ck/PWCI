@@ -2,12 +2,9 @@ img.logo{
     width: 100%;
     padding-top: 1.5% ;
 }
-h1.título{
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
-    font-size: xx-large;
+.sobreTodo{
+    position: relative;
+    z-index: 30;
 }
 
 footer{
@@ -18,11 +15,52 @@ footer{
     position: relative;
 }
 
-.centeredBTN{
-    margin: 0;
+#flotadorIMG {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 60%;
+    z-index: 5;
 }
+
+.imgNpantalla{
+    animation-name: movimientoPika;
+    animation-duration: 2s;
+}
+
+.responsiveIMG{
+    max-width: 60%;
+    height: auto;
+  }
+
+#flotador {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: 10;
+}
+
+.textoNpantalla{
+    color: aliceblue;
+    font-size: 4vw;
+    text-shadow: 0 0 20px rgb(41, 41, 41);
+    animation-name: movimiento;
+    animation-duration: 1.5s;
+}
+
+@keyframes movimiento {
+    from {
+      top: 40%;
+    }
+    to {
+      top: 30%;
+    }
+  }
+
+  @keyframes movimientoPika {
+    from {
+        left: 140%;
+    }
+    to {
+        left: 60%;
+    }
+  }
