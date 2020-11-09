@@ -10,12 +10,9 @@ h1.título{
     font-size: xx-large;
 }
 
-footer{
-    background-color: rgb(134, 134, 134);
-}
-
-.Landing{
-    position: relative;
+.logoNav{
+    width: 30px;
+    height:30px;
 }
 
 .centeredBTN{
@@ -25,4 +22,320 @@ footer{
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+.contGlobal{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.mainContent{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.separador{
+    width: 100%;
+    height: 2em;
+    background: #50278a;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: azure;
+    text-align: center;
+}
+.perfil{
+    color: azure;
+}
+.perfil h3{
+    font-size: 3vw;
+    border: dotted azure 2px;
+    border-radius: 50px
+}
+.perfil img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    padding: 1vw;
+}
+.listaNotas{
+    background: #e6e6e6;
+    border-radius: 10px;
+    width: 100%;
+    height: 50em;
+}
+.notaLista{
+    height: 10em;
+}
+.listaCard img{
+    height: 10em;
+    width: auto;
+    padding: 1vw;
+}
+.listaCard:hover{
+    background: #e9e9e9
+}
+
+footer{
+    background: #6f6570;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+}
+
+
+.fixed-top-2 {
+    margin-top: 56px;
+}
+
+body {
+    padding-top: 105px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #d12216 !important;
+}
+
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+    background-color: #db2518 !important;
+}
+
+.nav {
+    background-color:  #ffffff;
+}
+
+.nav2 {
+    background-color:  #949494;
+}
+
+.iniciarSesionDrop{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.RegistrarseDrop{
+    margin-bottom: 10px;
+}
+
+.iniciarSesionDrop .dropdown-menu  { 
+    width: 300px !important;
+    height: 380px !important;
+}
+
+.RegistrarseDrop .dropdown-menu  { 
+    width: 300px !important;
+    height: 430px !important;
+}
+
+.imgNavBar{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+
+}
+
+.usuarioNav{
+    margin-right: 20px;
+}
+
+.imagenUserNavbar{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%
+}
+
+.imagenUserConfig{
+    width: 250px !important;
+    height: 250px !important;
+    margin-bottom: 20px;
+    border-radius: 50% !important;
+}
+
+.campoConfig{
+    margin-bottom: 20px;
+}
+
+.btnConfig{
+    margin-top: 20px;
+}
+
+.separadorConfig{
+    width: 100%;
+    height: 3px;
+    background: #000000;
+    color: azure;
+    text-align: center;
+}
+
+.usuarioNomNav{
+    color:#000000;
+    margin-right: 30px;
+}
+
+.btnBaja, .btnBaja:hover, .btnBaja:active, .btnBaja:visited{
+    margin-top: 5px;
+    background-color: #d40b42 !important;
+}
+
+.seccion{
+    margin-left: 40px !important;
+}
+
+
+.comentario{
+    position: relative;
+}
+.comentario img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 2.5em;
+}
+.comentext{
+    display: inline-block;
+    background: azure;
+    min-height: 6em;
+    max-width: 1050px;
+    padding: 0.75em;
+    border-radius: 10px;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    margin-top: 0.7em;
+}
+
+
+.btnRegreasarEditor, .btnRegreasarEditor:hover, .btnRegreasarEditor:active, .btnRegreasarEditor:visited{
+    margin-top: 5px;
+    margin-bottom: 100px !important;
+    background-color: #d40b42 !important;
+}
+
+.categorianav{
+    margin-right: 7px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1001px) {
+    .categorianav{
+
+        font-size: 0px;
+    }
+
+}
+
+.navbar-brand{
+    color: #000000 !important;
+}
+
+.navbar-toggler-icon{
+    color: #d40b42 !important;
+}
+
+.navbar-toggler {
+  background-color: #db2518 !important;
+} 
+
+.titulo{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.perfilC{
+    position: relative;
+    display: inline-block;
+    width: 85%;
+    padding: 3%;
+    padding-left: 10%;
+    padding-right: 15%;
+    margin-bottom: 200px;
+    color: black;
+}
+
+@media screen and (max-width: 1362px) {
+    .perfilC{
+        position: relative;
+        display: inline-block;
+        width: 85%;
+        padding: 3%;
+        padding-left: 10%;
+        padding-right: 15%;
+        margin-bottom: 330px;
+        color: black;
+    }
+    .perfilBarra{
+        font-size: 0px;
+    }
+
+}
+@media screen and (max-width: 895px) {
+    .perfilC{
+        position: relative;
+        display: inline-block;
+        width: 85%;
+        padding: 3%;
+        padding-left: 10%;
+        padding-right: 15%;
+        margin-bottom: 530px;
+        color: black;
+    }
+
+}
+
+.barra{
+
+    position: fixed;
+    display: inline-block;
+    background: #5d4087;
+    width: 15%;
+
+    margin-left:auto;
+    margin-right:0;
+    float: right;
+    box-shadow: 3px 10px 18px #332f35;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.perfil{
+    color: azure;
+}
+.perfil h3{
+    font-size: 3vw;
+    border: dotted azure 2px;
+    border-radius: 50px
+}
+.perfil img{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    padding: 1vw;
+}
+
+.carro{
+    height: 30px;
+    width: 30px;
+
+}
+.config{
+    margin-top: 100px;
+    margin-bottom: 180px;
+}
+@media screen and (max-width: 1162px) {
+    .config{
+        margin-top: 100px;
+        margin-bottom: 500px;
+    }
+
+}
+@media screen and (max-width: 905px) {
+    .config{
+        margin-top: 100px;
+        margin-bottom: 500px;
+    }
+
 }
