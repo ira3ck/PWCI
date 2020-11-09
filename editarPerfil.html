@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" media="screen">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src= "scripts.js";></script>
+        <meta charset="UTF-8">
+        <title>Pefil</title>
+
+    </head>
+    <body>
+        <nav class="nav nav2 navbar navbar-expand-lg navbar-dark fixed-top fixed-top-2">
+            <form class="form-inline ml-auto">
+                <p class="categorianav">categoria 1</p>
+                <p class="categorianav">categoria 2</p>
+                <p class="categorianav">categoria 3</p>
+                <p class="categorianav">categoria 2</p>
+                <p class="categorianav">categoria 3</p>
+                <p class="categorianav">categoria 2</p>
+                <p class="categorianav">categoria 3</p>
+                <div class="md-form my-0">
+                    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                </div>
+                <button href="#!" class="btn btn-primary btn-outline-white btn-md my-0 ml-sm-2" type="submit">Buscar</button>
+    
+            </form>
+        </nav>
+    
+        <nav class="nav navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand " href="index.html" >
+                <img src="img/poke-center-logo.png" class="d-inline-block align-top logoNav" alt="" loading="lazy">
+                Pokemon Center
+            </a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-right" id="navbarNavAltMarkup">
+                
+                <div class="div-inline ml-auto  " >
+                   
+                    <img src="https://pbs.twimg.com/media/EjTY9nDWAAAYDdu?format=jpg&name=900x900" class="imgNavBar float-left imagenUserNavbar" alt="img de navbar">
+                    <a class="nav-link dropdown-toggle usuarioNomNav" href="#" id="navbarDropdown nav" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ira3ck 
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="perfil.html">perfil</a>
+                        <a class="dropdown-item" href="editarPerfil.html">configuracion de perfil</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="index.html">cerrar sesion</a>
+                    </div>
+
+    
+                </div>
+                <img src="img/shop cart.png" class="carro" alt="">                  
+            </div>
+        </nav>
+
+        <div class="contGlobal Config">
+            <div class="mainContent">
+
+                <div class="container">
+                    <div class="row"> 
+                        <div class="col">                  
+                            <img src="https://pbs.twimg.com/media/EjTY9nDWAAAYDdu?format=jpg&name=900x900" class="float-left imagenUserConfig" alt="..." >
+
+                            <div class="custom-file">
+
+                                <div class="btn btn-outline-secondary btn-rounded waves-effect float-left">
+                                    <input type="file" >
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-8" >
+                            <form action="ConfigUser.php" onsubmit="return validacionConfig()">
+
+                                        <label for="UsuarioConfig">Usuario</label>
+                                        <input type="text" class="form-control campoConfig" id="UsuarioConfig" name="UsuarioConfig" placeholder=" ">
+                                        
+                                        <label for="mailCofig">Correo electrónico</label>
+                                        <input type="text" class="form-control campoConfig" id="mailCofig" name="mailCofig" placeholder=" ">
+
+                                        <label for="contraConfig">Contraseña</label>
+                                        <input type="password" class="form-control campoConfig" id="contraConfig" name="contraConfig" placeholder=" ">
+
+                                        <label for="confirmarContraConfig">Confirmar contraseña</label>
+                                        <input type="password" class="form-control campoConfig" id="confirmarContraConfig" name="confirmarContraConfig" placeholder=" ">
+                
+                                        <div class="separadorConfig"></div>
+                                        
+                                        <label for="nombreConfig">Nombre</label>
+                                        <input type="text" class="form-control campoConfig" id="nombreConfig" name="nombreConfig" placeholder=" ">
+
+                                        <label for="apellidoPaConfig">Apellido paterno</label>
+                                        <input type="text" class="form-control campoConfig" id="apellidoPaConfig" name="apellidoPaConfig" placeholder=" ">
+
+                                        <label for="apellidoMaConfig">Apellido materno</label>
+                                        <input type="text" class="form-control campoConfig" id="apellidoMaConfig" name="apellidoMaConfig" placeholder=" ">
+
+                                        <label for="TelefonoConfig">Telefono</label>
+                                        <input type="number" class="form-control campoConfig" id="TelefonoConfig" name="TelefonoConfig" placeholder=" ">
+
+                                        <label for="DomicilioConfig">Domicilio</label>
+                                        <input type="text" class="form-control campoConfig" id="DomicilioConfig" name="DomicilioConfig" placeholder=" ">
+
+                                        <label for="CpConfig">Codigo Postal</label>
+                                        <input type="text" class="form-control campoConfig" id="CpConfig" name="CpConfig" placeholder=" ">
+
+                                        <label  for="nacimiento">Fecha de nacimiento</label>
+                                        <input type="date" id="nacimiento" class="campoConfig" name="nacimiento" value="2020-01-01" min="1900-01-01" max="2020-12-31">
+
+                                        <p id="seccion">Genero:</p>
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="maculino" name="generoConfig" class="custom-control-input">
+                                            <label class="custom-control-label" for="maculino">Maculino</label>
+                                        </div>
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="femenino" name="generoConfig" class="custom-control-input">
+                                            <label class="custom-control-label" for="femenino">Femenino</label>
+                                        </div>
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="noBinario" name="generoConfig" class="custom-control-input">
+                                            <label class="custom-control-label" for="noBinario">no binario</label>
+                                        </div>
+
+                                <button class="btn btn-primary btnConfig" type="submit">Cambiar Datos</button>
+                                
+                            </form>
+                            <button class="btn btn-primary btnBaja" type="submit" onclick="BajaUsuariro()">Eliminar cuenta </button>
+                        </div>
+                    </div>  
+                </div>
+ 
+            </div>
+
+        </div>
+
+        <footer >
+            <div class="container">
+                <div class="row">
+                    <div class="col" style="background-color: crimson;">
+                        texto texto
+                    </div>
+                    <div class="col" style="background-color: aqua;">
+                        texto texto
+                    </div>
+                </div>
+                <div class="row" style="background-color: yellowgreen;">
+                  <div class="col">
+                      Esta página no tiene relación con Pokémon.
+                  </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
