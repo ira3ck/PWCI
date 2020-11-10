@@ -1,4 +1,197 @@
 
+body{
+    background-color: rgb(231, 231, 231) !important;
+}
+
+/*---- C A T E G O R Í A ----*/
+.banner{
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.banner>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contCat{
+    width: 100%;
+    display: flex;
+}
+
+.barraProd{
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    min-width: 200px;
+    height: 100%;
+    min-height: 50rem;
+    padding: 0.5em;
+}
+.barraProd label{
+    color: rgb(119, 119, 119);
+}
+
+.contProd{
+    position: relative;
+    display: inline-block;
+    flex-grow: 1;
+    height: 100%;
+    padding: 0.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-category{
+    width: 30%;
+    min-width: 14rem !important;
+    max-width: 20rem !important;
+    height: 30rem;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-bottom: 1vw;
+    display: inline-block !important;
+    border: none;
+}
+
+.cc-body{
+    position: relative;
+    max-height: 20rem !important;
+    min-height: 18rem !important;
+    font-weight: lighter;
+    /*background-color: cornflowerblue;*/
+}
+
+.card-category>img{
+    width: 200px;
+    height: auto;
+}
+
+.card-category:hover{
+    box-shadow: 3px 10px 18px #5a5a5a;
+}
+
+.oferta{
+    width: fit-content;
+    color: rgb(29, 161, 36);
+    background-color: rgb(207, 252, 209);
+    border-radius: 4px;
+    padding: 0.5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-weight: 600;
+    font-size: small;
+}
+
+#backTOP{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#backTOP:hover{
+    background-color: rgb(190, 2, 102);
+    color: rgb(90, 3, 49);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none !important;
+}
+
+#backTOP:active{
+    border: none !important;
+}
+/*---- C A T E G O R Í A   **F I N** ----*/
+
+
+/*---- C A R R I T O ----*/
+
+.completarPantalla{
+    min-height: 40vw;
+}
+
+.media{
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.media svg:hover{
+    color: red;
+}
+
+.media svg:active{
+    color: white;
+}
+
+.media img{
+    height: 6em;
+    width: auto;
+}
+
+.media:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+.contador{
+    max-width: 120px;
+}
+
+.contador input{
+    background-color: rgb(19, 19, 19) !important;
+    color: white !important;
+    border: none !important;
+}
+
+.resta{
+    font-weight: bold !important;
+    background-color: rgb(245, 245, 245) !important;
+    color: black !important;
+}
+
+.suma{
+    font-weight: bold !important;
+    background-color: rgb(204, 65, 65) !important;
+    color: white !important;
+    border: none !important;
+}
+
+.resta:hover{
+    background-color: tomato !important;
+}
+
+.suma:hover{
+    background-color: tomato !important;
+}
+
+/*---- C A R R I T O   **F I N** ----*/
+
+
+/*---- L A N D I N G ----*/
+.card-principal{
+    border: none !important;
+    height: 26rem !important;
+    display: inline-block !important;
+}
+.card-principal:hover{
+    box-shadow: 3px 10px 18px #5a5a5a;
+}
+
 img.logo{
     width: 100%;
     padding-top: 1.5% ;
@@ -35,7 +228,7 @@ footer{
 
 #flotador {
     position: absolute;
-    top: 30%;
+    top: 17vw;
     left: 20%;
     z-index: 10;
 }
@@ -50,10 +243,12 @@ footer{
 
 @keyframes movimiento {
     from {
-      top: 40%;
+      top: 25vw;
+      opacity: 0;
     }
     to {
-      top: 30%;
+      top: 17vw;
+      opacity: 1;
     }
   }
 
@@ -82,6 +277,9 @@ h1.título{
     width: 30px;
     height:30px;
 }
+/*---- L A N D I N G   **F I N**----*/
+
+
 
 .centeredBTN{
     margin: 0;
@@ -156,6 +354,7 @@ footer{
 
 body {
     padding-top: 105px;
+    background-color: #e7e7e7;
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {

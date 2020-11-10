@@ -7,7 +7,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script src= "scripts.js";></script>
         <meta charset="UTF-8">
-        <title>confirmar compra</title>
+        <title>Confirmar compra</title>
+        <link rel="shortcut icon" href="img/poke-center-logo.png">
 
     </head>
     <body>
@@ -54,28 +55,30 @@
 
     
                 </div>
-                <img src="img/shop cart.png" class="carro" alt="">                  
+                <img onclick="Redirect('carrito.html')" src="img/shop cart.png" class="carro" alt="">                  
             </div>
         </nav>
 
         <div class="contGlobal Config">
             <div class="mainContent">
+                  
 
-                <div class="container ">
+                <div class="container">    
+                    <h2 class="my-5">Ya solo necesitamos unos datos...</h2>            
                     <div class="row">
                         <div class="col">
                             <form action="index.html" onsubmit="return validaCompra()">
 
-                                <label for="nombreCompra">Nombre del que recibira el paquete</label>
+                                <label for="nombreCompra">Nombre del que recibirá el paquete</label>
                                 <input type="text" class="form-control campoConfig" id="nombreCompra" name="nombreCompra" placeholder=" ">
 
-                                <label for="TelefonoCompra">Telefono</label>
+                                <label for="TelefonoCompra">Teléfono</label>
                                 <input type="number" class="form-control campoConfig" id="TelefonoCompra" name="TelefonoCompra" placeholder=" ">
 
                                 <label for="DomicilioCompra">Domicilio</label>
                                 <input type="text" class="form-control campoConfig" id="DomicilioCompra" name="DomicilioCompra" placeholder=" ">
 
-                                <label for="CpCompra">Codigo Postal</label>
+                                <label for="CpCompra">Código Postal</label>
                                 <input type="text" class="form-control campoConfig" id="CpCompra" name="CpCompra" placeholder=" ">
 
                                 <label for="NTCompra">Numero de tarjeta</label>
@@ -85,12 +88,12 @@
                                 <input type="text" class="form-control campoConfig" id="CVVCompra" name="CVVCompra" placeholder=" ">
 
                                 <div class="form-group">
-                                    <label for="indicaConCompra">indicaciones extra para la entrega</label>
+                                    <label for="indicaConCompra">Indicaciones extra para la entrega</label>
                                     <textarea class="form-control" id="indicaConCompra" rows="10"></textarea>
                                 </div>
 
-                        <button class="btn btn-primary btnConfig" type="submit">finalizar compra</button>
-                        <button class="btn btn-primary btnConfig" type="button" onclick="Redirect('')">regresar</button>
+                        <button class="btn btn-primary btnConfig" type="submit">Finalizar compra</button>
+                        <button class="btn btn-primary btnConfig" type="button" onclick="Redirect('index.html')">Regresar</button>
                         
                     </form>
                         </div>
