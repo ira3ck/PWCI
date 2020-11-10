@@ -1,3 +1,4 @@
+
 img.logo{
     width: 100%;
     padding-top: 1.5% ;
@@ -318,11 +319,11 @@ body {
     padding: 3%;
     padding-left: 10%;
     padding-right: 15%;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     color: black;
 }
 
-@media screen and (max-width: 1362px) {
+@media screen and (max-width: 922px) {
     .perfilC{
         position: relative;
         display: inline-block;
@@ -330,7 +331,7 @@ body {
         padding: 3%;
         padding-left: 10%;
         padding-right: 15%;
-        margin-bottom: 330px;
+        margin-bottom: 480px;
         color: black;
     }
     .perfilBarra{
@@ -338,7 +339,8 @@ body {
     }
 
 }
-@media screen and (max-width: 895px) {
+
+@media screen and (max-height: 1035px) {
     .perfilC{
         position: relative;
         display: inline-block;
@@ -351,6 +353,113 @@ body {
     }
 
 }
+
+@media screen and (max-height: 785px) {
+    .perfilC{
+        position: relative;
+        display: inline-block;
+        width: 85%;
+        padding: 3%;
+        padding-left: 10%;
+        padding-right: 15%;
+        margin-bottom: 730px;
+        color: black;
+    }
+
+}
+@media screen and (max-height: 585px) {
+    .perfilC{
+        position: relative;
+        display: inline-block;
+        width: 85%;
+        padding: 3%;
+        padding-left: 10%;
+        padding-right: 15%;
+        margin-bottom: 830px;
+        color: black;
+    }
+
+}
+@media screen and (max-height: 485px) {
+    .perfilC{
+        position: relative;
+        display: inline-block;
+        width: 85%;
+        padding: 3%;
+        padding-left: 10%;
+        padding-right: 15%;
+        margin-bottom: 1130px;
+        color: black;
+    }
+
+}
+@media screen and (max-width: 1382px){
+    .perfilC{
+        position: relative;
+        display: inline-block;
+        width: 85%;
+        padding: 3%;
+        padding-left: 10%;
+        padding-right: 15%;
+        margin-bottom: 730px;
+        color: black;
+    }
+
+}
+@media screen and (max-height: 1035px) and (max-width: 1382px){
+    .perfilC{
+        position: relative;
+        display: inline-block;
+        width: 85%;
+        padding: 3%;
+        padding-left: 10%;
+        padding-right: 15%;
+        margin-bottom: 860px;
+        color: black;
+    }
+
+}
+
+@media screen and (max-height: 785px) and (max-width: 1382px){
+    .perfilC{
+        position: relative;
+        display: inline-block;
+        width: 85%;
+        padding: 3%;
+        padding-left: 10%;
+        padding-right: 15%;
+        margin-bottom: 1100px;
+        color: black;
+    }
+
+}
+@media screen and (max-height: 585px) and (max-width: 1382px){
+    .perfilC{
+        position: relative;
+        display: inline-block;
+        width: 85%;
+        padding: 3%;
+        padding-left: 10%;
+        padding-right: 15%;
+        margin-bottom: 1300px;
+        color: black;
+    }
+
+}
+@media screen and (max-height: 485px) and (max-width: 1382px){
+    .perfilC{
+        position: relative;
+        display: inline-block;
+        width: 85%;
+        padding: 3%;
+        padding-left: 10%;
+        padding-right: 15%;
+        margin-bottom: 1460px;
+        color: black;
+    }
+
+}
+
 
 .barra{
 
@@ -390,22 +499,91 @@ body {
 }
 .config{
     margin-top: 100px;
-    margin-bottom: 180px;
+    margin-bottom: 380px;
 }
-@media screen and (max-width: 1162px) {
+
+@media screen and (max-width: 922px) {
     .config{
         margin-top: 100px;
-        margin-bottom: 500px;
+        margin-bottom: 480px;
+
+    }
+}
+
+@media screen and (max-height: 1035px) {
+    .config{
+        margin-top: 100px;
+        margin-bottom: 530px;
+
     }
 
 }
-@media screen and (max-width: 905px) {
+
+@media screen and (max-height: 785px) {
     .config{
         margin-top: 100px;
-        margin-bottom: 500px;
+        margin-bottom: 730px;
+
     }
 
 }
+@media screen and (max-height: 585px) {
+    .config{
+        margin-top: 100px;
+        margin-bottom: 830px;
+
+    }
+
+}
+@media screen and (max-height: 485px) {
+    .config{
+        margin-top: 100px;
+        margin-bottom: 1130px;
+
+    }
+
+}
+@media screen and (max-width: 1382px){
+    .config{
+        margin-top: 100px;
+        margin-bottom: 730px;
+
+    }
+
+}
+@media screen and (max-height: 1035px) and (max-width: 1382px){
+    .config{
+        margin-top: 100px;
+        margin-bottom: 860px;
+    }
+
+}
+
+@media screen and (max-height: 785px) and (max-width: 1382px){
+    .config{
+        margin-top: 100px;
+        margin-bottom: 1100px;
+
+    }
+
+}
+@media screen and (max-height: 585px) and (max-width: 1382px){
+    .config{
+        margin-top: 100px;
+        margin-bottom: 1300px;
+
+    }
+
+}
+@media screen and (max-height: 485px) and (max-width: 1382px){
+    .config{
+        margin-top: 100px;
+        margin-bottom: 1460px;
+
+    }
+
+}
+
 
 .imgConCompra{
     height: 50px;
