@@ -280,6 +280,11 @@ h1.título{
 /*---- L A N D I N G   **F I N**----*/
 
 
+/*---------------*/
+
+
+/*---------------*/
+
 
 .centeredBTN{
     margin: 0;
@@ -661,7 +666,6 @@ body {
 
 
 .barra{
-
     position: fixed;
     display: inline-block;
     background: #d81c1c;
